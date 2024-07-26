@@ -1,0 +1,46 @@
+.success{
+    height:95px;
+    width:25%;
+    background-color: rgba(136, 238, 136, 0.763);
+    border-radius: 12px;
+    position: absolute;
+    top:22px;
+    right:-400px;
+}
+
+
+.success .info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:12px;
+    position: relative;
+    
+}
+
+.success .info-container #cross{
+    position: absolute;
+    top:12px;
+    right:12px;
+}
+.success .info-container #check{
+    margin-left: .5rem;
+    font-size: 32px;
+    background-color: rgb(29, 215, 35);
+    color: aliceblue;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.success .info-container p{
+    padding-top: 12px;
+}
+.success .animation{
+    height: 10px;
+    width:100%;
+    background-color: rgb(43, 252, 10);
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    position: absolute;
+    bottom:0;
+}
