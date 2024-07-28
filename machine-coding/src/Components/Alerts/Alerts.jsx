@@ -7,11 +7,17 @@ const Alerts = () => {
     <>
     <div className='btn-container'>
       <div className="btn-1">
-        <Button/>
+        <Button type={"btn btn-success"} icon={"success"} text={"Success"}/>
       </div>
-      <div className="btn-1"></div>
-      <div className="btn-1"></div>
-      <div className="btn-1"></div>
+      <div className="btn-1">
+        <Button type={"btn btn-danger"} icon={"danger"} text={"Danger"}/>
+      </div>
+      <div className="btn-1">
+        <Button type={"btn btn-warning"} icon={"warning"} text={"Warning"}/>
+      </div>
+      <div className="btn-1">
+        <Button type={"btn btn-primary"} icon={"info"} text={"Information"}/>
+      </div>
     </div>
     <Success/>
     </>

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Css/Success.css"
 const Success = () => {
+  
   return (
     <div className='success'>
         <div className="info-container">

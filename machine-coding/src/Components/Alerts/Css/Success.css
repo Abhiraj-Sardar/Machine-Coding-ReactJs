@@ -1,11 +1,13 @@
 .success{
     height:95px;
     width:25%;
-    background-color: rgba(136, 238, 136, 0.763);
+    /* background-color: rgba(136, 238, 136, 0.763); */
+    background-color: rgba(223, 228, 232, 0.865);
     border-radius: 12px;
     position: absolute;
     top:22px;
     right:-400px;
+    
 }
 
 
@@ -22,14 +24,15 @@
     position: absolute;
     top:12px;
     right:12px;
+    font-size: 18px;
 }
 .success .info-container #check{
     margin-left: .5rem;
-    font-size: 32px;
+    font-size: 24px;
     background-color: rgb(29, 215, 35);
     color: aliceblue;
     border-radius: 100%;
-    padding: 5px;
+    padding: 5px 7px;
 }
 
 .success .info-container p{
@@ -43,4 +46,21 @@
     border-bottom-right-radius: 12px;
     position: absolute;
     bottom:0;
+    animation: load 7s ease-in infinite;
 }
+
+.success:hover .animation{
+    animation-play-state: paused;
+}
+
+
+@keyframes load {
+    0%{
+        width:100%;
+    }
+
+    100%{
+        width:0%;
+    }
+}
+
